@@ -1,0 +1,147 @@
+/* Search page style sheet */
+#errorMessage{
+    font-size:2em;
+}
+#container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+}
+#sidebar {
+    cursor:pointer;
+    float:left;
+    width:20%;
+    background-color:white;
+    clear:left;
+    margin:0em;
+    padding:0em;
+    border-radius:5px;
+}
+form span {
+    color:rgb(204, 0, 0);
+    cursor:pointer;
+}
+.selected {
+    text-decoration:underline;
+}
+.book {
+    flex: 0 0 150px;
+    padding:10px;
+    background-color:white;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius:5px;
+    cursor:pointer; 
+    padding-bottom:5px;
+    background-position:center;
+    background-color: rgba(255,255,255,0.7);
+    background-blend-mode: lighten;
+}
+body {
+    background-color:#e8e8e8;
+}
+.book p {
+    color:white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+.title {
+    margin-top:1em;
+    margin-bottom:0.25em;
+    text-align:center;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.author{
+    text-align:center;
+    margin:0em;
+}
+.year {
+    text-align:center;
+    font-size:0.9em;
+    padding-bottom:1em;
+    margin-top:0.25em;
+}
+.review {
+    text-align:right;
+    font-size:.9em;
+    clear:right;
+}
+.price {
+    float:right;
+    text-align:center;
+    border: 1px solid black;
+    border-radius:5px;
+    font-weight:bold;
+    padding:.2em;
+    font-size:1.1em;
+    width:40%;
+    background-color:#8b0000;
+    margin:0em;
+}
+.title {
+    clear:both;
+}
+.currentPage {
+    background-color:#ffcccb;
+    font-weight:bold;
+}
+#searchBarHolder {
+    width:60%;
+    margin:auto;
+    display:block;
+}
+#searchBar {
+    width:90%;
+}
+#pageText {
+    width:30%;
+    text-align:center;
+    margin:auto;
+}
+#sortText {
+    font-size:0.9em;
+    margin:auto;
+    margin-top:1em;
+    margin-bottom:1em;
+    text-align:center;
+}
+#currentGenre .genre, #currentGenre {
+    background-color:#ffcccb;
+}
+.genreBox {
+    margin:0em;
+    padding:0em;
+    font-size:0.9em;
+    margin-left:1em;
+    margin-right:1em;
+    margin-bottom:1em;
+    border-radius:5px;
+}
+.genreIdentifier {
+    font-weight:bold;
+    padding:0.5em;
+    margin:0em;
+}
+.genre {
+    padding-left:1em;
+    padding-top:0.5em;
+    padding-bottom:.5em;
+    margin:0em;
+    margin-left:1em;
+    margin-right:1em;
+    border-radius:5px;	
+}
+#sidebar > p {
+    font-weight:bold;
+    text-align:center;
+    padding-top:0.5em;
+}
+#searchMain {
+    width:75%;
+    margin:1em auto;
+}

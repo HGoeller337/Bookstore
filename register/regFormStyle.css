@@ -1,0 +1,20 @@
+/* Registration form style sheet */
+
+/* Form */
+#registrationForm {
+    display: grid;
+    grid-template-columns: auto 15em auto;
+    grid-column-gap: .5em;
+    grid-row-gap: .5em;
+    justify-content: start;
+}
+#registrationForm label {
+    display: block;
+    text-align: right;
+}
+#registrationForm span {
+    color: red;
+}
+#submitBtn {
+    grid-column: 2;
+}

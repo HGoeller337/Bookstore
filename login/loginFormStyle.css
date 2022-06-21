@@ -1,0 +1,23 @@
+/* Login form style sheet */
+
+/* Form */
+#loginForm {
+    display: grid;
+    grid-template-columns: auto 15em auto;
+    grid-column-gap: .5em;
+    grid-row-gap: .5em;
+    justify-content: start;
+}
+#loginForm label {
+    display: block;
+    text-align: right;
+}
+#loginForm span {
+    color: red;
+}
+#submitBtn, #registerBtn {
+    grid-column: 2;
+}
+#registerBtn button {
+    width: 100%;
+}

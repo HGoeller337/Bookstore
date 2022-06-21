@@ -1,0 +1,27 @@
+/* Registration form style sheet */
+
+/* Form */
+#profileEditForm {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: .5em;
+    grid-row-gap: .5em;
+    justify-content: start;
+}
+#profileEditForm label {
+    display: block;
+    text-align: right;
+    grid-column: 1;
+}
+#profileEditForm span {
+    color: red;
+}
+#profileEditForm textarea {
+    grid-column: span 2;
+}
+#submitBtn {
+    grid-column: 2;
+}
+#backBtn button {
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+/* Checkout form style sheet */
+
+/* Form */
+#checkoutForm {
+    display: grid;
+    grid-template-columns: auto 15em auto;
+    grid-column-gap: .5em;
+    grid-row-gap: .5em;
+    justify-content: start;
+}
+#checkoutForm label {
+    display: block;
+    text-align: right;
+    grid-column: 1;
+}
+#checkoutForm span {
+    color: red;
+}
+#checkoutForm h2 {
+    grid-column: 1 / span 3;
+}
+#submitBtn {
+    grid-column: 2;
+}

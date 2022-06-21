@@ -1,0 +1,85 @@
+/* Global CSS Sheet */
+
+/* Mini-Reset */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global; applies to everything */
+html * {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header/Navbar */
+header {
+    margin: auto;
+    background-color: red;
+    padding: 0.5em;
+    display: block;
+    overflow: auto;
+}
+header * {
+    display: inline-block;
+    vertical-align: middle;
+}
+header img {
+    height: 3em;
+    margin: 1em;
+}
+header h1 {
+    margin: .75em auto;
+}
+header div {
+    margin: .8em 0 .8em auto;
+    padding: 0.5em;
+    color: #fff;
+}
+header div * {
+    margin: .5em;
+    font-size: 1.2em;
+}
+header div a:link, header div a:visited { color: #fff }
+header div a:hover, header div a:active { color: #888 }
+header div a {
+    text-decoration: none;
+}
+nav {
+    margin: auto;
+    padding: 1em 0.5em;
+    background-color: #ddd;
+}
+nav * {
+    display: inline-block;
+    margin: auto .5em;
+    font-size: 1.5em;
+}
+nav a:link, nav a:visited { color: #888 }
+nav a:hover, nav a:active { color: #333 }
+nav a {
+    text-decoration: none;
+}
+
+/* Section & Main */
+body section {
+    margin: 1em;
+}
+body main {
+    margin: 1em;
+}
+
+/* Anchor Tags (Hyperlinks) */
+a:link, a:visited { color: #000 }
+a:hover, a:active { color: #999 }
+
+/* General-use Classes */
+.alignRight {
+    float: right;
+}
+
+/* Featured */
+#featured img {
+    display: inline-block;
+    float: left;
+    margin-right: 1.5em;
+}

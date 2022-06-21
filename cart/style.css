@@ -1,0 +1,9 @@
+/* Cart style sheet */
+
+th, td {
+    padding: 0 2em;
+    text-align: center;
+}
+td img {
+    height: 10em;
+}
